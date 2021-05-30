@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Prompt&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif;
+}
+h1,h2,.h1,.h2{
+    font-family: 'Pattaya', sans-serif;
+}
+
+:root{
+    --main-color: ;
+    --secondary-color: ;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+.bg-navbar{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    min-height: 85px;
+    
+}
+
+
+.logo-gradient{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.cards-main{
+    color: #f5f5f5;
+    border: 2px solid #833ab4;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #833ab4;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.85);
+}
+.cards-main2{
+    color: #f5f5f5;
+    border: 2px solid #fd1d1d;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #fd1d1d;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.85);
+}
+.cards-main3{
+    color: #f5f5f5;
+    border: 2px solid #005218;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #005218;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.85);
+}
+
+.bg-footer{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.5) 50%, rgba(252,176,69,1) 100%);
+    min-height: 200px;
+    
+}
+
+.cards-product{
+    color: #f5f5f5;
+    border: 2px solid #833ab4;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #833ab4;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.85);
+}
+
+/* progressBar */
+.demo{ background: #585858; }
+.progress{
+    height: 50px;
+    background-color: rgba(41, 39, 39, 0.151);
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    overflow: visible;
+}
+.progress .progress-bar{
+    box-shadow: none;
+    position: relative;
+    border-radius: 20px;
+    animation: animate-positive 2s;
+}
+.progress .progress-title{
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.progress .progress-value{
+    width: 45px;
+    height: 33px;
+    line-height: 35px;
+    background: #f5f5f5;
+    border-radius: 50px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+.progress.yellow .progress-value{ color: #ffcc00; }
+.progress.blue .progress-value{ color: #7049ba; }
+.progress.green .progress-value{ color: #5fad56; }
+.progress.orange .progress-value{ color: orange; }
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}
